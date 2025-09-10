@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+
+    header {
+      background-color: #f4f1fb;
+      padding: 70px 20px;
+      text-align: center;
+      color: #4a4a8b;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    header h1 span {
+      color: #8b5cf6;
+    }
+
+    header p {
+      margin: 10px 0 20px;
+      font-size: 1.1em;
+    }
+
+    header button {
+      padding: 10px 25px;
+      background-color: #8b5cf6;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background-color 0.3s ease;
+    }
+
+    header button:hover {
+      background-color: #7c3aed;
+    }
+
+    .about {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .about img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #e0e0ff;
+    }
+
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .projects div {
+      background-color: #fff;
+      padding: 25px;
+      width: 260px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .projects div:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+    }
+
+    .projects h3 {
+      margin-top: 0;
+      color: #8b5cf6;
+    }
+
+    .contact {
+      padding: 50px 20px;
+      background-color: #f9f9fb;
+      text-align: center;
+    }
+
+    .contact input,
+    .contact textarea {
+      width: 90%;
+      max-width: 450px;
+      padding: 12px;
+      margin: 10px auto;
+      display: block;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+
+    .contact button {
+      padding: 12px 28px;
+      background-color: #4a4a8b;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact button:hover {
+      background-color: #383875;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hi, I'm <span>Dharshini</span></h1>
+    <p>Exploring the world of web development with creativity & curiosity!</p>
+    <button>See My Projects</button>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <img src="https://i.postimg.cc/3xq5Rk9m/IMG-20250814-100435.jpg" alt="Profile photo" />
+  </section>
+
+  <section class="projects">
+    <div>
+      <h3>Project 1</h3>
+      <p>Personal portfolio built with responsive HTML & CSS.</p>
+    </div>
+    <div>
+      <h3>Project 2</h3>
+      <p>Quiz app using JavaScript logic and interactivity.</p>
+    </div>
+    <div>
+      <h3>Project 3</h3>
+      <p>Simple blog layout showcasing semantic HTML.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <input type="text" placeholder="Your Name" />
+    <input type="email" placeholder="Your Email" />
+    <textarea rows="4" placeholder="Your Message"></textarea>
+    <button>Send Message</button>
+  </section>
+
+</body>
+</html>
+
